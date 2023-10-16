@@ -25,3 +25,17 @@ print(z * 5)
 
 a =int(input("Enter a number: "))
 print(a * 5)
+
+#Basic Calculator
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+add = a + b
+print(add)
+subract = a - b
+print(subract)
+multiply = a * b
+print(multiply)
+divide = a/b
+print(divide)
+power = a**b
+print(power)
