@@ -1,7 +1,7 @@
 # Masters-In-Data-Science
 This is about learning Data Science and cover the basics which I personally think it helps people to learn Data Science faster. I will be updating 4 days a week and if ypu have any doubts or queries you can contact me on my email: danvanthdarshan2001@gmail.com.
 
-#Python
+**#Python**
 Python is a high-level, interpreted programming language known for its simplicity and readability. It was created by Guido van Rossum and first released in 1991. Python is a versatile language used in various applications, including web development, data analysis, scientific computing, artificial intelligence, automation, and more. Here are some key aspects and features of Python:
 
 Readability: Python's syntax is easy to read and write. It uses indentation (whitespace) to define code blocks, which promotes clean and organized code.
@@ -30,7 +30,8 @@ Garbage Collection: Python manages memory automatically through garbage collecti
 
 To use Python, you need to install the Python interpreter on your computer, and then you can create and run Python scripts and programs. Python is commonly used in a wide range of fields, including web development, data science, machine learning, automation, and more. Its simplicity and versatility make it an excellent choice for both beginners and experienced programmers.
 
-#Install Python
+**#Install Python**
+
 Installing Python on your computer is a straightforward process. Here are the general steps to install Python on Windows, macOS, or Linux:
 
 1. Check if Python is already installed:
