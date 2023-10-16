@@ -3,9 +3,9 @@
 a = {10 : "Sachin", 18 : "Kholi", 1 : "KL Rahul", 45 : "Rohit", 7 : "Dhoni"}
 print(a)
 
-#Update a Dictionary
+#Duplicate in a Dictionary
 
-a = {10 : "Sachin", 18 : "Kholi", 1 : "KL Rahul", 45 : "Rohit", 10 : "Dhoni"}
+a = {10 : "Sachin", 18 : "Kholi", 1 : "KL Rahul", 45 : "Rohit", 10 : "Dhoni"} # key duplicates the value which is added last
 
 #To print a particular value in a dictionary keys are used
 
