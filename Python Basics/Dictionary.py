@@ -15,3 +15,5 @@ print(a[45])
 
 a[1] = "Ishant Sharma"
 print(a)
+
+#In a dictionary values can be duplicated but keys cannot be duplicated
