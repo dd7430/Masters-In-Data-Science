@@ -15,3 +15,6 @@ print(a[2])
 print(a[-1])
 
 print(a[4])
+ #slicing 
+
+print(a[0:2])
