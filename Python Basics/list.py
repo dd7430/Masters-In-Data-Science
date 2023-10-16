@@ -8,7 +8,7 @@ print(a)
 z = "Zaheer"
 a = ["Abishek", 1, 10.5, True, [1,2,3,4,5], z ] 
 
-#Printing particular elements in a list
+#Printing particular elements in a list or aka Indexing.
 
 print(a[2])
 
