@@ -25,3 +25,22 @@ for i in a:
 #print numbers in reverse
 for i in range (10,0,-1):
   print(i)
+
+#appending in for loop
+
+j = []
+for i in range(2,10,2):
+    j.append(i)
+print(j)
+
+#printing even and odd number using append
+even = []
+odd = []
+a=[1,2,3,4,5,6]
+for i in a:
+    if i%2 == 0:
+        even.append(i)
+    else:
+        odd.append(i)
+print(even)
+print(odd)
