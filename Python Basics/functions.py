@@ -7,10 +7,11 @@ def add_1():
   print(c)
 
 add_1()
+
+
+#cube of a number
 def cubeNumber(x):
-    return x**2
- 
- 
+    return x**3
   
 a = cubeNumber(3)
 
