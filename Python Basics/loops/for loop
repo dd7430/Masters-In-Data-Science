@@ -1,1 +1,27 @@
+#basic for loop
+a = "Anand"
+for i in range (10):
+  print(a)
 
+#for loop with range and condition
+for i in range (2,10,2):
+    print(i)
+
+# to print every element using for loop
+a = [1,2,3,4,5]
+for i in a:
+  print(i)
+
+f = "Sachin"
+for i in f:
+  print(i)
+
+#print even nummbers
+a = [1,2,3,4,5]
+for i in a:
+  if i%2 == 0:
+    print(i)
+
+#print numbers in reverse
+for i in range (10,0,-1):
+  print(i)
