@@ -60,4 +60,23 @@ def add_2(a=5,b=20):
 
 add_2()
 add_2(12,11) # if values are given to the variables it uses the new values if written by the def function. 
-  
+
+
+#lambda function
+
+x = lambda a,b: a + b
+print(x(4,5))
+print(x(10,11))
+
+print(x("abhis","hek"))
+
+
+#map, filter, reduce
+
+#map
+
+a = ['kholi', 'sachin', 'dravid']
+print(a)
+
+list_1 = map(str.upper,a)
+print(list(list_1))
