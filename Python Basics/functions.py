@@ -71,6 +71,8 @@ print(x(10,11))
 print(x("abhis","hek"))
 
 
+
+
 #map, filter, reduce
 
 #map
@@ -80,3 +82,50 @@ print(a)
 
 list_1 = map(str.upper,a)
 print(list(list_1))
+
+
+#filter
+
+a = ['kholi', 'sachin', 'dravid']
+
+def remove(x):
+  return 'a' in x
+
+print('a' in 'kholi')
+
+list_2 = filter(remove,a)
+print(list(list_2))
+
+
+def even(x):
+  if x % 2 == 0:
+    return x
+
+a = [1,2,3,4,5,6,7,8]
+list2 = filter(even,a)
+print(list(list2))
+
+even1 = filter(lambda a : (a%2==0), array)
+print(list(even1))
+
+#reduce
+a=[1,2,3,4,5,6]
+from functools import reduce
+
+lambda x,y : x+y
+
+list_3 = reduce(lambda x,y: x+y, a)
+
+print(list_3)
+
+
+b = ['kholi', 'sachin', 'dravid']
+
+from functools import reduce
+
+lambda x,y : x + y
+
+list_3 = reduce(lambda x,y: x +" plays next for " + y, b)
+
+print(list_3)
+
