@@ -1,0 +1,17 @@
+Pandas are the basic packages used in Data Science. 
+
+One dimensional Data, which contains single tupe of elements.
+
+DataFrame is 2 or more than 2 dimensional data in it.
+
+Pandas functions
+
+.head()
+.describe()
+.isnull()
+.info()
+.tail()
+.index()
+.loc()
+.iloc()
+.query()
